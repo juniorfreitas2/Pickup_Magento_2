@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<page>
+    <body>
+        <referenceContainer name="footer-container">
+            <block class="Ithappens\Pickup\Block\Store" name="ithappens.pickup.store" after="footer" />
+        </referenceContainer>
+    </body>
+</page>
+

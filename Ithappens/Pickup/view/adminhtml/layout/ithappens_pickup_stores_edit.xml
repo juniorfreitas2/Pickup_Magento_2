@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="admin-2columns-left" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <link src="Ithappens_Pickup::js/bootstrap/item-post-action.js"/>
+    </head>
+    <body>
+        <referenceContainer name="content">
+            <uiComponent name="ithappens_pickup_stores_form"/>
+        </referenceContainer>
+    </body>
+</page>
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<config>
+    <menu>
+
+        <add id="Ithappens_Pickup::manager" title="Pickup" module="Ithappens_Pickup" sortOrder="10"  resource="Ithappens_Pickup::manager" />
+        <add id="Ithappens_Pickup::istores" title="Stores" module="Ithappens_Pickup" sortOrder="20"  parent="Ithappens_Pickup::manager" resource="Ithappens_Pickup::istores" action="ithappens_pickup/stores/index" />
+<!--        <add id="Ithappens_Pickup::items"   title="Items"  module="Ithappens_Pickup" sortOrder="20"  parent="Ithappens_Pickup::manager"   resource="Ithappens_Pickup::items"   action="ithappens_pickup/items/index" />-->
+    </menu>
+</config>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<page>
+    <body>
+        <referenceContainer name="content">
+            <block class="Ithappens\Pickup\Block\Store" name="ithappens.pickup.store" after="checkout.root" />
+        </referenceContainer>
+    </body>
+</page>
+

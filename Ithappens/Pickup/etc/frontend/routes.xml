@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+
+<config>
+    <router id="standard">
+        <route id="ithappens_pickup" frontName="ithappens_pickup">
+            <module name="Intelipost_Pickup" />
+        </route>
+    </router>
+</config>
+
+

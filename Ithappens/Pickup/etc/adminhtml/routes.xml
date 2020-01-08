@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<config>
+    <router id="admin">
+        <route id="ithappens_pickup" frontName="ithappens_pickup">
+            <module name="Ithappens_Pickup" />
+        </route>
+    </router>
+</config>
+

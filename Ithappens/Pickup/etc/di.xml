@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <virtualType name="Ithappens\Pickup\Model\Resource\Stores\Collection" type="Magento\Framework\View\Element\UiComponent\DataProvider\SearchResult">
+        <arguments>
+            <argument name="mainTable" xsi:type="string">ithappens_pickup_stores</argument>
+            <argument name="resourceModel" xsi:type="string">Ithappens\Pickup\Model\Resource\Stores</argument>
+        </arguments>
+    </virtualType>
+    <type name="Magento\Framework\View\Element\UiComponent\DataProvider\CollectionFactory">
+        <arguments>
+            <argument name="collections" xsi:type="array">
+                <item name="ithappens_pickup_stores_grid_data_source" xsi:type="string">Ithappens\Pickup\Model\Resource\Stores\Collection</item>
+            </argument>
+        </arguments>
+    </type>
+    <preference for="Ithappens\Pickup\Api\StoresInterface" type="Ithappens\Pickup\Model\Stores" />
+</config>
+

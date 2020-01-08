@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+
+<config>
+    <default>
+        <carriers>
+            <pickup>
+                <active>1</active>
+                <sallowspecific>0</sallowspecific>
+                <model>Ithappens\Pickup\Model\Carrier\Pickup</model>
+                <name>Retirar na loja</name>
+                <title>Disponivel para retirada</title>
+                <custom_title><![CDATA[%s - available on %s]]></custom_title>
+                <same_day_title><![CDATA[%s - deliver same day]]></same_day_title>
+                <type>I</type>
+                <display_mode>arrival_date</display_mode>
+                <specificerrmsg>This shipping method is not available. To use this shipping method, please contact us.</specificerrmsg>
+                <date_format><![CDATA[Y-m-d H:i:s]]></date_format>
+            </pickup>
+        </carriers>
+    </default>
+</config>
+
