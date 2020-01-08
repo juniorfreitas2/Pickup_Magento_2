@@ -8,12 +8,12 @@ bin/magento setup:di:compile                     // Recompila o projeto Magento
 Uso
 Uma vez instalado e configurado, é necessário cadastrar as Lojas disponíveis para retirada bem como as Janelas de Coleta.
 
-![myimage-alt-tag](https://drive.google.com/file/d/1iAyhLHD6h3zi1z2DpZHW7xzDOnNKpX_q/preview)
+![myimage-alt-tag](img/menu.png)
 
 Cadastro das lojas é necessário informar o range de Cep em "Begin Zipcode" e "End Zipcode" que a loja vai atender, permitindo que você cadastre várias lojas, e que alguma pessoa de outro estado não consiga Solicitar retirada em loja por engano.
 Caso no estado dela Exista uma loja que possua retirada, somente essa irá aparecer para o cliente final.
 
-![myimage-alt-tag](https://drive.google.com/file/d/1hDQg5ljdiq8UPB8NfMrTY0RnKXf9tAdW/preview)
+![myimage-alt-tag](img/createstore.png)
 
 - **Id loja**: Id da loja 
 - **Name**: Nome para a loja (Aparecerá para o cliente) 
@@ -27,5 +27,7 @@ Caso no estado dela Exista uma loja que possua retirada, somente essa irá apare
 - **Begin Zipcode**: Inicio do range de cep que a permitirá retirada (exemplo: 1000000)
 - **End Zipcode**: Fim do range de cep que a permitirá retirada (exemplo: 9000000)
 
-![myimage-alt-tag](https://drive.google.com/file/d/1GM7NoZqwvTKFKQuftqxHcof6BHtYv9_P/preview)
+Exemplo do pickup store no frontend da loja:
+
+![myimage-alt-tag](img/methodslist.png)
 
