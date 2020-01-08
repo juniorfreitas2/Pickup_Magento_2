@@ -1,7 +1,7 @@
 How Usage this
-```
-bin/composer require intelipost/magento2-pickup  // Faz a requisição do módulo da Intelipost
-bin/magento module:enable Intelipost_Pickup      // Ativa o módulo
+``` 
+Copiar a pasta ithappens e colar no dentro da sua pasta code
+bin/magento module:enable Ithappens_Pickup       // Ativa o módulo
 bin/magento setup:upgrade                        // Registra a extensão
 bin/magento setup:di:compile                     // Recompila o projeto Magento
 ```
