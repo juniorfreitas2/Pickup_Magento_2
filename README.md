@@ -1,6 +1,6 @@
 How Usage this
 ``` 
-composer require juniorfreitas2/pickup_magento_2
+Copiar a pasta ithappens e colar no dentro da sua pasta code
 
 bin/magento module:enable Ithappens_Pickup       // Ativa o módulo
 bin/magento setup:upgrade                        // Registra a extensão
