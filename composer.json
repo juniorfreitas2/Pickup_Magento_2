@@ -1,0 +1,8 @@
+{
+    "name": "juniorfreitas/pickup",
+    "description": "module for pickup store",
+    "require": {
+        "php": "^7.2",
+        "another-vendor/package": "1.*"
+    }
+}
