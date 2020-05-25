@@ -2,7 +2,6 @@
     "name": "juniorfreitas2/pickup_magento_2",
     "description": "module for pickup store",
     "require": {
-        "php": "^7.2",
-        "another-vendor/package": "1.*"
+        "php": "^7.2"
     }
 }
