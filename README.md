@@ -1,6 +1,7 @@
 How Usage this
 ``` 
-Copiar a pasta ithappens e colar no dentro da sua pasta code
+composer require juniorfreitas2/pickup_magento_2
+
 bin/magento module:enable Ithappens_Pickup       // Ativa o módulo
 bin/magento setup:upgrade                        // Registra a extensão
 bin/magento setup:di:compile                     // Recompila o projeto Magento
