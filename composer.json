@@ -1,5 +1,5 @@
 {
-    "name": "juniorfreitas/pickup",
+    "name": "juniorfreitas2/Pickup_Magento_2",
     "description": "module for pickup store",
     "require": {
         "php": "^7.2",
